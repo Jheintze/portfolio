@@ -1,5 +1,5 @@
-// Update these with your real profile URLs before publishing.
-const GITHUB_URL = "https://github.com/";
+
+const GITHUB_URL = "https://github.com/Jheintze";
 const LINKEDIN_URL = "https://linkedin.com/in/";
 
 const iconLinkClassName =
