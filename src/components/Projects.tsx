@@ -16,7 +16,7 @@ export default function Projects(){
 
       <div className="mt-6  aspect-[4/3] overflow-hidden rounded-lg">
   <Image
-    src="/notetostudy.png"
+    src="/NoteToStudy.png"
     alt="NoteToStudy application screenshot"
     width={1200}
     height={675}
