@@ -7,12 +7,15 @@ const iconLinkClassName =
 
 export default function Hero() {
   return (
-    <section id="hero" className="mx-auto max-w-5xl px-4 py-16 sm:py-24">
-      <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+    <section
+  id="hero"
+  className="flex min-h-screen flex-col justify-center mx-auto max-w-7xl px-4"
+>
+      <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-8xl">
         Jakob Heintze
       </h1>
 
-      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-foreground/80 sm:mt-6 sm:text-xl">
+      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-foreground/80 sm:mt-6 sm:text-2xl">
         Frontend Developer building modern web applications with React, Next.js
         and AI integrations.
       </p>

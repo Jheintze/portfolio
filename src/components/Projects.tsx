@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Projects(){
     return (
-        <section id="projects" className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
-  <h2 className="text-2xl font-bold sm:text-3xl">
+        <section id="projects" className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
+  <h2 className="text-4xl font-bold sm:text-5xl">
     Projects
   </h2>
 
   <div className="mt-10 grid items-stretch gap-10 md:grid-cols-2">
     
     <article className="flex flex-col">
-      <h3 className="text-xl font-bold text-center">
+      <h3 className="text-3xl font-bold text-center">
         NoteToStudy
       </h3>
 
@@ -28,7 +28,7 @@ export default function Projects(){
   </a>
 </div>
 
-      <p className="mt-6 min-h-24 leading-relaxed text-foreground/80">
+      <p className="mt-6 min-h-24 text-lg leading-relaxed text-foreground/80">
         AI-powered study application that transforms unstructured notes into structured learning material. It helps students organize, enhance and simplify their notes into clear study resources.
       </p>
 
@@ -45,7 +45,7 @@ export default function Projects(){
 
 
     <article className="flex flex-col">
-      <h3 className="text-xl font-bold text-center">
+      <h3 className="text-3xl font-bold text-center">
         Wedding Website
       </h3>
 
@@ -62,7 +62,7 @@ export default function Projects(){
   /></a>
 </div>
 
-      <p className="mt-6 min-h-24 leading-relaxed text-foreground/80">
+      <p className="mt-6 min-h-24 text-lg leading-relaxed text-foreground/80">
         A responsive wedding website built for a real wedding event, providing guests with essential information about the location, accommodation, schedule and RSVP process.
       </p>
 

@@ -10,8 +10,11 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <hr className="border-foreground/10" />
       <Projects />
+      <hr className="border-foreground/10" />
       <About />
+      <hr className="border-foreground/10" />
       <Contact />
       <Footer />
     </main>

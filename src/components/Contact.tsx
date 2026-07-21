@@ -6,14 +6,14 @@ const LINKEDIN_URL = "https://linkedin.com/in/";
 const iconLinkClassName =
   "rounded-md p-2 transition-opacity hover:opacity-70";
 
-const sectionHeadingClassName = "text-2xl font-bold sm:text-3xl";
+const sectionHeadingClassName = "text-4xl font-bold sm:text-5xl";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
+    <section id="contact" className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
       <h2 className={sectionHeadingClassName}>Contact</h2>
 
-      <div className="mt-6 max-w-md space-y-4 leading-relaxed text-foreground/80">
+      <div className="mt-6 max-w-md space-y-4 text-lg leading-relaxed text-foreground/80">
         <p className="text-lg text-foreground sm:text-xl">
           Let&apos;s build something together.
         </p>

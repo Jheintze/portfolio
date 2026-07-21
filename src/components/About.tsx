@@ -13,16 +13,16 @@ const skillGroups = [
   },
 ];
 
-const columnHeadingClassName = "text-2xl font-bold sm:text-3xl";
+const columnHeadingClassName = "text-4xl font-bold sm:text-5xl";
 
 export default function About() {
   return (
-    <section id="about" className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
-      <div className="flex flex-col items-start gap-10 md:flex-row md:justify-center md:gap-20 lg:gap-28 xl:gap-60">
+    <section id="about" className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
+      <div className="flex flex-col items-start gap-10 md:flex-row md:justify-start md:gap-20 lg:gap-28 xl:gap-50">
         <div className="w-full max-w-md">
           <h2 className={columnHeadingClassName}>About Me</h2>
 
-          <div className="mt-6 space-y-4 leading-relaxed text-foreground/80">
+          <div className="mt-10 space-y-4 text-lg leading-relaxed text-foreground/80">
             <p>
               I&apos;m a frontend developer focused on creating clean, responsive
               and user-friendly web applications.
@@ -43,7 +43,7 @@ export default function About() {
         <div className="w-full max-w-sm">
           <h2 className={columnHeadingClassName}>Tech Stack</h2>
 
-          <div className="mt-6 space-y-6">
+          <div className="mt-10 space-y-4">
             {skillGroups.map((group) => (
               <div key={group.title}>
                 <h3 className="font-bold">{group.title}</h3>
