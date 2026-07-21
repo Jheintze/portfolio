@@ -15,6 +15,9 @@ export default function Projects(){
       </h3>
 
       <div className="mt-6  aspect-[4/3] overflow-hidden rounded-lg">
+       <a href="https://note-to-study.vercel.app"
+         target="_blank"
+  rel="noopener noreferrer">
   <Image
     src="/NoteToStudy.png"
     alt="NoteToStudy application screenshot"
@@ -22,6 +25,7 @@ export default function Projects(){
     height={675}
     className="h-full w-full object-cover"
   />
+  </a>
 </div>
 
       <p className="mt-6 min-h-24 leading-relaxed text-foreground/80">
@@ -33,11 +37,6 @@ export default function Projects(){
       </p>
 
       <div className="mt-6 flex gap-10">
-        <a href="https://note-to-study.vercel.app"
-         target="_blank"
-  rel="noopener noreferrer">
-          View Website
-        </a>
         <a href="#">
           View Case Study
         </a>
@@ -51,13 +50,16 @@ export default function Projects(){
       </h3>
 
       <div className="mt-6  aspect-[4/3] overflow-hidden rounded-lg">
+      <a href="https://jheintze.github.io/Wedding-Website/"
+         target="_blank"
+  rel="noopener noreferrer">
   <Image
     src="/WeddingWebsite.png"
     alt="Wedding Website screenshot"
     width={1200}
     height={675}
     className="h-full w-full object-cover"
-  />
+  /></a>
 </div>
 
       <p className="mt-6 min-h-24 leading-relaxed text-foreground/80">
@@ -66,15 +68,7 @@ export default function Projects(){
 
       <p className="mt-4 text-sm text-foreground/80">
         HTML · CSS · JavaScript 
-      </p>
-
-      <div className="mt-6">
-        <a href="https://jheintze.github.io/Wedding-Website/"
-         target="_blank"
-  rel="noopener noreferrer">
-          View Website
-        </a>
-      </div>
+      </p>     
     </article>
 
   </div>
