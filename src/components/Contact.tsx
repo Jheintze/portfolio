@@ -10,19 +10,23 @@ const sectionHeadingClassName = "text-4xl font-bold sm:text-5xl";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
-      <h2 className={sectionHeadingClassName}>Contact</h2>
+    <section id="contact" className="mx-auto max-w-7xl px-4 py-20 sm:py-24">
+     <h2 className={sectionHeadingClassName}>Contact</h2>
 
-      <div className="mt-6 max-w-md space-y-4 text-lg leading-relaxed text-foreground/80">
-        <p className="text-lg text-foreground sm:text-xl">
-          Let&apos;s build something together.
-        </p>
-        <p>
-          I&apos;m open to frontend opportunities and interesting projects.
-        </p>
-        <p>Feel free to reach out.</p>
-      </div>
+<div className="mt-10 max-w-xl">
+  <p className="text-2xl font-medium">
+    Let's build something together.
+  </p>
 
+  <div className="mt-6 space-y-3 text-lg leading-relaxed text-foreground/80">
+    <p>
+      I&apos;m open to frontend opportunities and interesting projects.
+    </p>
+    <p>
+      Feel free to reach out.
+    </p>
+  </div>
+</div>
       <div className="mt-8 flex flex-wrap items-center gap-2 sm:mt-10 sm:gap-4">
         
         <a
