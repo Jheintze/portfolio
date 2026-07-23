@@ -7,7 +7,7 @@ export default function Projects(){
     Projects
   </h2>
 
-  <div className="mt-10 grid items-stretch gap-10 md:grid-cols-2">
+  <div className="mt-16 grid items-stretch gap-16 md:grid-cols-2">
     
     <article className="flex flex-col">
       <h3 className="text-3xl font-bold text-center">
@@ -23,7 +23,7 @@ export default function Projects(){
     alt="NoteToStudy application screenshot"
     width={1200}
     height={675}
-    className="h-full w-full object-cover"
+   className="h-full w-full object-cover"
   />
   </a>
 </div>
@@ -32,13 +32,14 @@ export default function Projects(){
         AI-powered study application that transforms unstructured notes into structured learning material. It helps students organize, enhance and simplify their notes into clear study resources.
       </p>
 
-      <p className="mt-4 text-sm text-foreground/80">
+      <p className="mt-6 text-sm text-foreground/80">
         React · Next.js · TypeScript · OpenAI API · Supabase
       </p>
 
       <div className="mt-6 flex gap-10">
-        <a href="#">
-          View Case Study
+        <a href="#"
+        className="inline-flex items-center gap-2 text-base font-medium transition-opacity hover:opacity-70">
+          View Case Study →
         </a>
       </div>
     </article>
@@ -66,7 +67,7 @@ export default function Projects(){
         A responsive wedding website built for a real wedding event, providing guests with essential information about the location, accommodation, schedule and RSVP process.
       </p>
 
-      <p className="mt-4 text-sm text-foreground/80">
+      <p className="mt-6 text-sm text-foreground/80">
         HTML · CSS · JavaScript 
       </p>     
     </article>

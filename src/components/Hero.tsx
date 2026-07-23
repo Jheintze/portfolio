@@ -3,8 +3,7 @@ const GITHUB_URL = "https://github.com/Jheintze";
 const LINKEDIN_URL = "https://linkedin.com/in/";
 
 const iconLinkClassName =
-  "rounded-md p-2 transition-opacity hover:opacity-70";
-
+  "rounded-md p-2 transition-colors duration-200 hover:text-accent";
 export default function Hero() {
   return (
     <section
@@ -57,9 +56,9 @@ export default function Hero() {
 
         <a
           href="#projects"
-          className="rounded-md px-3 py-2 text-sm font-medium transition-opacity hover:opacity-70 sm:ml-2"
+          className="rounded-md px-3 py-2 text-lg font-medium transition-opacity hover:opacity-70 sm:ml-2"
         >
-          View Projects
+          View Projects →
         </a>
       </div>
     </section>

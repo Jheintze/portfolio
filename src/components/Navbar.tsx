@@ -13,13 +13,13 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const linkClassName =
-    "block rounded-md px-2 py-1 text-sm transition-opacity hover:opacity-70";
+  "block rounded-md px-2 py-1 text-base font-medium transition-opacity hover:opacity-70";
 
   const closeMenu = () => setIsOpen(false);
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-foreground/10 bg-background/80 backdrop-blur-sm">
-      <div className="mx-auto max-w-5xl px-4 py-3 sm:flex sm:items-center sm:justify-between">
+      <div className="mx-auto max-w-6xl px-4 py-3 sm:flex sm:items-center sm:justify-between">
         <div className="flex items-center justify-between">
           <a
             href="#hero"
