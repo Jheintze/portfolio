@@ -20,7 +20,7 @@ overflow-hidden
 rounded-xl
 border border-foreground/10
 shadow-sm
-transition-all duration-400
+transition-all duration-300
 hover:-translate-y-0.5
 hover:shadow-md">
        <a href="https://note-to-study.vercel.app"
@@ -46,8 +46,10 @@ hover:shadow-md">
 
       <div className="mt-6 flex gap-10">
         <a href="#"
-        className="inline-flex items-center gap-2 text-base font-medium transition-opacity hover:opacity-70">
-          View Case Study →
+        className="group inline-flex items-center  text-base font-medium transition-opacity hover:opacity-70">
+          View Case Study <span className="ml-1 inline-block transition-transform duration-200 group-hover:translate-x-1">
+    →
+  </span>
         </a>
       </div>
     </article>
@@ -64,7 +66,7 @@ overflow-hidden
 rounded-xl
 border border-foreground/10
 shadow-sm
-transition-all duration-400
+transition-all duration-300
 hover:-translate-y-0.5
 hover:shadow-md">
       <a href="https://jheintze.github.io/Wedding-Website/"

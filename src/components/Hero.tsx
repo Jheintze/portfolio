@@ -56,9 +56,11 @@ export default function Hero() {
 
         <a
           href="#projects"
-          className="rounded-md px-3 py-2 text-lg font-medium transition-opacity hover:opacity-70 sm:ml-2"
+         className="group rounded-md px-3 py-2 text-lg font-medium transition-opacity hover:opacity-70 sm:ml-2"
         >
-          View Projects →
+          View Projects <span className="ml-1 inline-block transition-transform duration-200 group-hover:translate-x-1">
+    →
+  </span>
         </a>
       </div>
     </section>

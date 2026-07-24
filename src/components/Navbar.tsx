@@ -18,7 +18,7 @@ export default function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-foreground/10 bg-background/80 backdrop-blur-sm">
+    <nav className="sticky top-0 z-50 w-full border-b border-foreground/10 bg-background/80 backdrop-blur-md">
       <div className="mx-auto max-w-6xl px-4 py-3 sm:flex sm:items-center sm:justify-between">
         <div className="flex items-center justify-between">
           <a
