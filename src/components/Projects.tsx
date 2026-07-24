@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects(){
     return (
-        <section id="projects" className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
+        <section id="projects" className="bg-surface" > <div className="bg-surface mx-auto max-w-7xl px-4 py-16 sm:py-20">
   <h2 className="text-4xl font-bold sm:text-5xl">
     Projects
   </h2>
@@ -14,7 +14,15 @@ export default function Projects(){
         NoteToStudy
       </h3>
 
-      <div className="mt-6  aspect-[4/3] overflow-hidden rounded-lg">
+      <div className="mt-6
+aspect-[4/3]
+overflow-hidden
+rounded-xl
+border border-foreground/10
+shadow-sm
+transition-all duration-400
+hover:-translate-y-0.5
+hover:shadow-md">
        <a href="https://note-to-study.vercel.app"
          target="_blank"
   rel="noopener noreferrer">
@@ -50,7 +58,15 @@ export default function Projects(){
         Wedding Website
       </h3>
 
-      <div className="mt-6  aspect-[4/3] overflow-hidden rounded-lg">
+      <div className="mt-6
+aspect-[4/3]
+overflow-hidden
+rounded-xl
+border border-foreground/10
+shadow-sm
+transition-all duration-400
+hover:-translate-y-0.5
+hover:shadow-md">
       <a href="https://jheintze.github.io/Wedding-Website/"
          target="_blank"
   rel="noopener noreferrer">
@@ -72,7 +88,7 @@ export default function Projects(){
       </p>     
     </article>
 
-  </div>
+  </div></div>
 </section>
     );
 }

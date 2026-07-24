@@ -4,7 +4,7 @@ const GITHUB_URL = "https://github.com/Jheintze";
 const LINKEDIN_URL = "https://linkedin.com/in/";
 
 const iconLinkClassName =
-  "rounded-md p-2 transition-opacity hover:opacity-70";
+  "rounded-md p-2 transition-colors duration-200 hover:text-accent";
 
 const sectionHeadingClassName = "text-4xl font-bold sm:text-5xl";
 
@@ -64,7 +64,7 @@ export default function Contact() {
         </a>
         <a
           href={`mailto:${EMAIL}`}
-          className="rounded-md px-2 py-2 text-sm transition-opacity hover:opacity-70"
+          className="rounded-md px-3 py-2 text-base font-medium transition-opacity hover:opacity-70"
         >
           {EMAIL}
         </a>
