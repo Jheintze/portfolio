@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const sectionHeadingClassName = "text-4xl font-bold sm:text-5xl";
 
-export default function notetostudy(){
+export default function NoteToStudy(){
     return (
         <main>
      <section className="mx-auto max-w-7xl px-4 pt-16 pb-20 text-center">
@@ -97,7 +97,83 @@ The challenge was creating a simple workflow where students could transform unor
   </div> </div>
 </div>
 </section>
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
+  <h2 className={sectionHeadingClassName}>
+    AI Integration
+  </h2>
 
+  <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
+    <h3 className="text-2xl font-semibold text-foreground">
+      Using AI to support the learning process
+    </h3>
+
+    <p className="mt-4">
+      One of the main challenges when building NoteToStudy was deciding where
+      AI could provide real value. Instead of simply generating summaries, the
+      application uses AI to help students transform their own notes into
+      structured study material.
+    </p>
+
+    <p className="mt-6">
+      Students can choose between two workflows:
+    </p>
+
+    <div className="mt-6 space-y-6">
+      <div>
+        <h4 className="font-semibold text-foreground">
+          Organize
+        </h4>
+
+        <ul className="mt-2 list-disc space-y-1 pl-5">
+          <li>Keeps the student&apos;s original content</li>
+          <li>Improves structure and readability</li>
+          <li>Converts notes into a clearer study format</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-foreground">
+          AI Enhanced
+        </h4>
+
+        <ul className="mt-2 list-disc space-y-1 pl-5">
+          <li>Adds explanations and additional context</li>
+          <li>Expands the learning material</li>
+          <li>
+          Helps make complex topics easier to understand
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p className="mt-8">
+      The goal was to give students control over the level of AI assistance
+      while keeping their own notes as the foundation.
+    </p>
+  </div>
+
+  <div className="mt-12 max-w-3xl">
+    <h3 className="text-2xl font-semibold text-foreground">
+      AI Processing Workflow
+    </h3>
+
+    <div className="mt-6 rounded-xl border border-foreground/10 bg-foreground/[0.03] p-6 text-center text-lg">
+      <p>Student Input</p>
+      <p className="my-2">↓</p>
+      <p>Next.js Application</p>
+      <p className="my-2">↓</p>
+      <p>OpenAI API</p>
+      <p className="my-2">↓</p>
+      <p>Structured Study Material</p>
+    </div>
+
+    <p className="mt-6 text-lg leading-relaxed text-foreground/80">
+      The application handles the user input, sends relevant information to the
+      AI model, and presents the generated result as structured learning
+      material.
+    </p>
+  </div>
+</section>
 </main>
     )
 }
