@@ -251,6 +251,99 @@ The challenge was creating a simple workflow where students could transform unor
     </div>
   </div>
 </section>
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
+  <h2 className={sectionHeadingClassName}>
+    Testing the Idea
+  </h2>
+ <div className="mt-12 grid items-start gap-16 md:grid-cols-2">
+  <div className="text-lg leading-relaxed text-foreground/80">
+    <p>
+      The idea for NoteToStudy came while studying Spanish at UNAM
+      (National Autonomous University of Mexico), where I experienced the
+      challenge of organizing large amounts of learning material.
+    </p>
+
+    <p className="mt-4">
+      To validate whether students would find value in the tool, I created
+      promotional material and tested the application with students around
+      the university area.
+    </p>
+  
+  {/* Flyer Campaign */}
+ 
+    <div  className="mt-12">
+      <h3 className="text-2xl font-semibold text-foreground">
+        Flyer Campaign
+      </h3>
+
+      <p className="mt-4 text-lg leading-relaxed text-foreground/80">
+        I designed a flyer introducing NoteToStudy and placed 50 copies around
+        campus notice boards and student areas to reach potential users.
+      </p>
+
+      <p className="mt-4 text-lg leading-relaxed text-foreground/80">
+        The goal was to create awareness of the application and encourage
+        students to try the tool.
+      </p>
+    </div>
+</div>
+    <div className="mx-auto max-w-md overflow-hidden rounded-xl border border-foreground/10 shadow-sm">
+      <Image
+        src="/flyer.png"
+        alt="NoteToStudy flyer"
+        width={800}
+        height={1200}
+        className="w-full"
+      />
+    </div>
+  </div>
+
+
+  {/* Analytics */}
+ <div className="mt-20 max-w-3xl">
+  <h3 className="text-2xl font-semibold text-foreground">
+    Measuring Engagement
+  </h3>
+
+  <p className="mt-4 text-lg leading-relaxed text-foreground/80">
+    To understand whether students interacted with the application, I
+    implemented custom analytics tracking using Supabase.
+  </p>
+
+  <p className="mt-4 text-lg leading-relaxed text-foreground/80">
+    The initial campaign generated:
+  </p>
+
+  <div className="mt-8 grid gap-6 sm:grid-cols-3">
+    <div>
+      <p className="text-3xl font-semibold text-foreground">
+       78
+      </p>
+      <p className="mt-1 text-sm text-foreground/70">
+        Website visits
+      </p>
+    </div>
+
+    <div>
+      <p className="text-3xl font-semibold text-foreground">
+        16
+      </p>
+      <p className="mt-1 text-sm text-foreground/70">
+        Note generations
+      </p>
+    </div>
+
+    <div>
+      <p className="text-3xl font-semibold text-foreground">
+        0
+      </p>
+      <p className="mt-1 text-sm text-foreground/70">
+        AI Enhanced generations
+      </p>
+    </div>
+  </div>
+</div>
+</section>
 </main>
     )
 }
