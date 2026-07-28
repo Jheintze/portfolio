@@ -45,7 +45,9 @@ hover:shadow-md">
       </p>
 
       <div className="mt-6 flex gap-10">
-        <a href="#"
+        <a href="/projects/notetostudy"
+         target="_blank"
+  rel="noopener noreferrer"
         className="group inline-flex items-center  text-base font-medium transition-opacity hover:opacity-70">
           View Case Study <span className="ml-1 inline-block transition-transform duration-200 group-hover:translate-x-1">
     →
