@@ -174,6 +174,83 @@ The challenge was creating a simple workflow where students could transform unor
     </p>
   </div>
 </section>
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
+  <h2 className={sectionHeadingClassName}>
+    Building & Technology
+  </h2>
+
+  <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
+    <p>
+      NoteToStudy was built as a full-stack application combining a modern
+      frontend, AI capabilities, analytics, and deployment.
+    </p>
+
+    <div className="mt-10 space-y-10">
+      <div>
+        <h3 className="text-2xl font-semibold text-foreground">
+          Frontend
+        </h3>
+
+        <h4 className="mt-3 font-semibold text-foreground">
+          Next.js, React, TypeScript, Tailwind CSS
+        </h4>
+
+        <p className="mt-3">
+          The application uses Next.js and React to build the user interface,
+          with TypeScript helping maintain a more reliable codebase. Tailwind
+          CSS was used to create a consistent responsive design and iterate
+          quickly during development.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-semibold text-foreground">
+          AI
+        </h3>
+
+        <h4 className="mt-3 font-semibold text-foreground">
+          OpenAI API
+        </h4>
+
+        <p className="mt-3">
+          The OpenAI API powers the note transformation features by processing
+          user input and generating structured study material.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-semibold text-foreground">
+          Analytics
+        </h3>
+
+        <h4 className="mt-3 font-semibold text-foreground">
+          Supabase
+        </h4>
+
+        <p className="mt-3">
+          Supabase was used to store application analytics, including page
+          visits and generation events, allowing me to measure usage during
+          testing.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-semibold text-foreground">
+          Deployment
+        </h3>
+
+        <h4 className="mt-3 font-semibold text-foreground">
+          Vercel
+        </h4>
+
+        <p className="mt-3">
+          The application is deployed with Vercel, providing a simple workflow
+          for publishing updates directly from the repository.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
     )
 }
