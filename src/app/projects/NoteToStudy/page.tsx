@@ -5,6 +5,9 @@ const sectionHeadingClassName = "text-4xl font-bold sm:text-5xl";
 export default function NoteToStudy(){
     return (
         <main>
+
+          {/*Hero */}
+
      <section className="mx-auto max-w-7xl px-4 pt-16 pb-20 text-center">
         <p className="text-sm font-medium uppercase tracking-wider text-foreground/60">
     Project Case Study
@@ -25,6 +28,9 @@ export default function NoteToStudy(){
   />
   </div>
 </section>
+
+{/*Overview */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
     <h2 className={sectionHeadingClassName}>Overview</h2>
     <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
@@ -37,6 +43,9 @@ export default function NoteToStudy(){
     </p>
   </div>
 </section>
+
+{/*The Problem */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
     <h2 className={sectionHeadingClassName}>The Problem</h2>
     <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
@@ -47,6 +56,9 @@ The challenge was creating a simple workflow where students could transform unor
     </p>
   </div>
 </section>
+
+{/*The Solution */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
     <h2 className={sectionHeadingClassName}>The Solution</h2>
    <div className="mt-8 max-w-3xl space-y-4 text-lg leading-relaxed text-foreground/80">
@@ -97,6 +109,9 @@ The challenge was creating a simple workflow where students could transform unor
   </div> </div>
 </div>
 </section>
+
+{/*AI Integration */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
   <h2 className={sectionHeadingClassName}>
     AI Integration
@@ -174,6 +189,9 @@ The challenge was creating a simple workflow where students could transform unor
     </p>
   </div>
 </section>
+
+{/*Building & Technology */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
   <h2 className={sectionHeadingClassName}>
     Building & Technology
@@ -251,6 +269,9 @@ The challenge was creating a simple workflow where students could transform unor
     </div>
   </div>
 </section>
+
+{/* Testing the idea */}
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
   <h2 className={sectionHeadingClassName}>
     Testing the Idea
@@ -300,6 +321,7 @@ The challenge was creating a simple workflow where students could transform unor
 
 
   {/* Analytics */}
+
  <div className="mt-20 max-w-3xl">
   <h3 className="text-2xl font-semibold text-foreground">
     Measuring Engagement
@@ -343,6 +365,74 @@ The challenge was creating a simple workflow where students could transform unor
     </div>
   </div>
 </div>
+</section>
+
+ {/*  Results & Learnings */}
+ 
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
+  <h2 className={sectionHeadingClassName}>
+    Results & Learnings
+  </h2>
+
+  <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
+    <p>
+      The initial test provided valuable insights into how students interacted
+      with the application. While the campaign generated visitors and some
+      users tested the generation workflow, the conversion from visitors to
+      active users remained limited.
+    </p>
+
+    <p className="mt-4">
+      The testing phase helped identify areas where the product experience
+      could be improved and highlighted the importance of validating ideas
+      with real users.
+    </p>
+  </div>
+
+
+  <div className="mt-12 max-w-3xl">
+    <h3 className="text-2xl font-semibold text-foreground">
+      Key Learnings
+    </h3>
+
+    <div className="mt-6 space-y-6 text-lg leading-relaxed text-foreground/80">
+      <div>
+        <h4 className="font-semibold text-foreground">
+          Clearer Feature Differentiation
+        </h4>
+
+        <p className="mt-2">
+          The difference between the Organize and AI Enhanced workflows was not
+          clear enough for users. The two features needed stronger
+          differentiation to communicate when additional AI assistance provides
+          value.
+        </p>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-foreground">
+          User Communication & Onboarding
+        </h4>
+
+        <p className="mt-2">
+          The application would benefit from clearer explanations of the
+          available workflows and how AI contributes to the generated study
+          material.
+        </p>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-foreground">
+          Early Validation
+        </h4>
+
+        <p className="mt-2">
+          Testing with real users helped identify product limitations before investing more time
+into further development.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
     )

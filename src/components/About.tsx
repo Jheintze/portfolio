@@ -28,9 +28,7 @@ export default function About() {
               and user-friendly web applications.
             </p>
             <p>
-              Through self-directed learning and hands-on projects, I&apos;ve
-              built applications using modern technologies like React, Next.js,
-              TypeScript and AI APIs.
+             Through structured learning, self-directed study, and hands-on projects, I've built applications using modern technologies like React, Next.js, TypeScript, and AI APIs.
             </p>
             <p>
               I enjoy turning ideas into practical digital products and exploring
