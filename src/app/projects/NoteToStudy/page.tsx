@@ -31,27 +31,28 @@ export default function NoteToStudy(){
 
 {/*Overview */}
 
-<section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
     <h2 className={sectionHeadingClassName}>Overview</h2>
     <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
     <p>
-      NoteToStudy was built to explore how AI can help students turn messy
-      lecture notes into structured study resources.
+NoteToStudy was built to explore how AI can help students turn messy lecture notes into structured study resources.
+</p>
 
-      The idea was to create a simple tool that reduces the time required to
-      organize and prepare learning material.
-    </p>
+<p className="mt-4">
+The idea was to create a simple tool that reduces the time required to organize and prepare learning material.
+</p>
   </div>
 </section>
 
 {/*The Problem */}
 
-<section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
     <h2 className={sectionHeadingClassName}>The Problem</h2>
     <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
     <p>
       Students often collect information from lectures, slides and handwritten notes, but turning those notes into structured learning material takes time.
-
+   </p>
+   <p className="mt-4">
 The challenge was creating a simple workflow where students could transform unorganized information into something easier to study.
     </p>
   </div>
@@ -59,7 +60,7 @@ The challenge was creating a simple workflow where students could transform unor
 
 {/*The Solution */}
 
-<section className="mx-auto max-w-7xl px-4 pt-16 pb-20 items-start">
+<section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
     <h2 className={sectionHeadingClassName}>The Solution</h2>
    <div className="mt-8 max-w-3xl space-y-4 text-lg leading-relaxed text-foreground/80">
   <p>
@@ -199,8 +200,7 @@ The challenge was creating a simple workflow where students could transform unor
 
   <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
     <p>
-      NoteToStudy was built as a full-stack application combining a modern
-      frontend, AI capabilities, analytics, and deployment.
+     NoteToStudy was built as a full-stack application combining a React-based frontend, AI processing, analytics tracking, and cloud deployment.
     </p>
 
     <div className="mt-10 space-y-10">
@@ -276,7 +276,7 @@ The challenge was creating a simple workflow where students could transform unor
   <h2 className={sectionHeadingClassName}>
     Testing the Idea
   </h2>
- <div className="mt-12 grid items-start gap-16 md:grid-cols-2">
+ <div className="mt-12 grid gap-16 md:grid-cols-2">
   <div className="text-lg leading-relaxed text-foreground/80">
     <p>
       The idea for NoteToStudy came while studying Spanish at UNAM
@@ -368,7 +368,7 @@ The challenge was creating a simple workflow where students could transform unor
 </section>
 
  {/*  Results & Learnings */}
- 
+
 <section className="mx-auto max-w-7xl px-4 pt-16 pb-20">
   <h2 className={sectionHeadingClassName}>
     Results & Learnings
@@ -377,9 +377,7 @@ The challenge was creating a simple workflow where students could transform unor
   <div className="mt-8 max-w-3xl text-lg leading-relaxed text-foreground/80">
     <p>
       The initial test provided valuable insights into how students interacted
-      with the application. While the campaign generated visitors and some
-      users tested the generation workflow, the conversion from visitors to
-      active users remained limited.
+      with the application. While the campaign generated interest and some users tested the application, the number of completed generations showed that the product still needed stronger user motivation and clearer communication.
     </p>
 
     <p className="mt-4">
@@ -427,9 +425,9 @@ The challenge was creating a simple workflow where students could transform unor
         </h4>
 
         <p className="mt-2">
-          Testing with real users helped identify product limitations before investing more time
-into further development.
-        </p>
+         Testing with real users helped identify product limitations before investing
+         more time into further development.
+       </p>
       </div>
     </div>
   </div>

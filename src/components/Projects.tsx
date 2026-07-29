@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects(){
     return (
-        <section id="projects" className="bg-surface" > <div className="bg-surface mx-auto max-w-7xl px-4 py-16 sm:py-20">
+        <section id="projects" className="bg-surface" > <div className="mx-auto max-w-7xl px-4 py-16 sm:py-20">
   <h2 className="text-4xl font-bold sm:text-5xl">
     Projects
   </h2>
@@ -37,7 +37,7 @@ hover:shadow-md">
 </div>
 
       <p className="mt-6 min-h-24 text-lg leading-relaxed text-foreground/80">
-        AI-powered study application that transforms unstructured notes into structured learning material. It helps students organize, enhance and simplify their notes into clear study resources.
+        AI-powered study application that transforms unstructured notes into structured learning material. It helps students organize, enhance and transform their notes into clearer study resources.
       </p>
 
       <p className="mt-6 text-sm text-foreground/80">

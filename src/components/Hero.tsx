@@ -1,6 +1,6 @@
 
 const GITHUB_URL = "https://github.com/Jheintze";
-const LINKEDIN_URL = "https://linkedin.com/in/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/jakob-heintze/";
 
 const iconLinkClassName =
   "rounded-md p-2 transition-colors duration-200 hover:text-accent";
@@ -8,15 +8,14 @@ export default function Hero() {
   return (
     <section
   id="hero"
-  className="flex min-h-screen flex-col justify-center mx-auto max-w-7xl px-4"
+  className="flex min-h-[70vh] flex-col justify-center mx-auto max-w-7xl px-4 sm:min-h-screen"
 >
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-7xl">
         Jakob Heintze
       </h1>
 
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground/80 sm:mt-8 sm:text-2xl">
-        Frontend Developer building modern web applications with React, Next.js
-        and AI integrations.
+        Frontend Developer building modern web applications with React, Next.js, TypeScript and AI integration.
       </p>
 
       <div className="mt-8 flex flex-wrap items-center gap-2 sm:mt-10 sm:gap-4">

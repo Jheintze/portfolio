@@ -1,7 +1,7 @@
 
 const EMAIL = "jheintze33@gmail.com";
 const GITHUB_URL = "https://github.com/Jheintze";
-const LINKEDIN_URL = "https://linkedin.com/in/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/jakob-heintze/";
 
 const iconLinkClassName =
   "rounded-md p-2 transition-colors duration-200 hover:text-accent";

@@ -4,7 +4,7 @@ const skillGroups = [
     items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
-    title: "Backend & Data",
+    title: "Backend & Services",
     items: ["Node.js", "MongoDB", "Supabase"],
   },
   {
@@ -18,7 +18,7 @@ const columnHeadingClassName = "text-4xl font-bold sm:text-5xl";
 export default function About() {
   return (
     <section id="about" className="mx-auto max-w-7xl px-4 py-20 sm:py-24">
-      <div className="flex flex-col items-start gap-10 md:flex-row md:justify-start md:gap-20 lg:gap-28 xl:gap-50">
+      <div className="flex flex-col items-start gap-10 md:flex-row md:justify-start md:gap-20 lg:gap-28 xl:gap-52">
         <div className="w-full max-w-md">
           <h2 className={columnHeadingClassName}>About Me</h2>
 
@@ -28,12 +28,10 @@ export default function About() {
               and user-friendly web applications.
             </p>
             <p>
-             Through structured learning, self-directed study, and hands-on projects, I've built applications using modern technologies like React, Next.js, TypeScript, and AI APIs.
+             Through structured learning, self-directed study, and hands-on projects, I&apos;ve built applications using modern technologies like React, Next.js, TypeScript, and AI APIs.
             </p>
             <p>
-              I enjoy turning ideas into practical digital products and exploring
-              how AI can improve development workflows, increase productivity and
-              help bring useful applications to life faster.
+              I enjoy turning ideas into practical digital products and exploring how AI can improve development workflows and create more useful user experiences.
             </p>
           </div>
         </div>

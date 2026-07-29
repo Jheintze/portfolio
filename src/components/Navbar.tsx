@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a
             href="#hero"
-            className="text-base font-semibold sm:text-lg"
+            className="text-base font-semibold sm:text-lg transition-opacity hover:opacity-70"
             onClick={closeMenu}
           >
             Jakob Heintze
