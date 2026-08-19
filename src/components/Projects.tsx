@@ -37,7 +37,7 @@ export default function Projects() {
               </a>
             </div>
 
-            <p className="mt-6 h-32 text-lg leading-relaxed text-foreground/80">
+            <p className="mt-6 min-h-32 md:h-32 text-lg leading-relaxed text-foreground/80">
               AI marketing assistant that turns restaurant information,
               promotions, and food photos into ready-to-use content for
               Instagram, Facebook, and Google Business. Early-stage prototype,
@@ -78,7 +78,7 @@ export default function Projects() {
               </a>
             </div>
 
-            <p className="mt-6 h-32 text-lg leading-relaxed text-foreground/80">
+            <p className="mt-6 min-h-32 md:h-32 text-lg leading-relaxed text-foreground/80">
               AI-powered study application that transforms unstructured notes
               into structured learning material. It helps students organize,
               enhance and transform their notes into clearer study resources.
@@ -133,7 +133,7 @@ export default function Projects() {
               </a>
             </div>
 
-            <p className="mt-6 min-h-24 text-lg leading-relaxed text-foreground/80">
+            <p className="mt-6 min-h-32 md:h-32 text-lg leading-relaxed text-foreground/80">
               A responsive wedding website built for a real wedding event,
               providing guests with essential information about the location,
               accommodation, schedule and RSVP process.
