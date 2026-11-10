@@ -50,6 +50,46 @@ export default function Projects() {
             </p>
           </article>
           <article className="flex flex-col">
+            <h3 className="text-3xl font-bold text-center">FairFly</h3>
+
+            <div
+              className="mt-6
+               aspect-[4/3]
+               overflow-hidden
+               rounded-xl
+               border border-foreground/10
+               shadow-sm
+               transition-all duration-300
+               hover:-translate-y-0.5
+              hover:shadow-md"
+            >
+              <a
+                href="https://fairfly.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/dishboost2.png"
+                  alt="FairFly application screenshot"
+                  width={1200}
+                  height={675}
+                  className="h-full w-full object-cover"
+                />
+              </a>
+            </div>
+
+            <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:h-32">
+              A travel agency platform developed as part of a web development
+              practicum at Mayerfeld Consulting. Users can explore trips, manage
+              bookings, and pay securely through Stripe.
+            </p>
+
+            <p className="mt-6 text-sm text-foreground/80">
+              React · Next.js · JavaScript · Tailwind CSS · Neon PostgreSQL ·
+              Neon Auth · Stripe · Vercel
+            </p>
+          </article>
+          <article className="flex flex-col">
             <h3 className="text-3xl font-bold text-center">NoteToStudy</h3>
 
             <div
