@@ -29,6 +29,46 @@ export default function Projects() {
               >
                 <Image
                   src="/dishboost2.png"
+                  alt="Leadfinder application screenshot"
+                  width={1200}
+                  height={675}
+                  className="h-full w-full object-cover"
+                />
+              </a>
+            </div>
+
+            <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:h-32">
+              An AI-powered lead generation tool that helps restaurants discover
+              potential customers, find contact information and prepare
+              personalized outreach emails. Features an AI agent, automated lead
+              discovery and Gmail integration, with an interactive demo mode.
+            </p>
+
+            <p className="mt-6 text-sm text-foreground/80">
+              Next.js · TypeScript · Tailwind CSS · Supabase · OpenAI API · Gmail API (OAuth)
+            </p>
+          </article>
+          <article className="flex flex-col">
+            <h3 className="text-3xl font-bold text-center">Dishboost</h3>
+
+            <div
+              className="mt-6
+               aspect-[4/3]
+               overflow-hidden
+               rounded-xl
+               border border-foreground/10
+               shadow-sm
+               transition-all duration-300
+               hover:-translate-y-0.5
+              hover:shadow-md"
+            >
+              <a
+                href="https://dishboost.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/dishboost2.png"
                   alt="Dishboost application screenshot"
                   width={1200}
                   height={675}
